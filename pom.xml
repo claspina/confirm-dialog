@@ -4,7 +4,7 @@
 
     <groupId>org.claspina</groupId>
     <artifactId>confirm-dialog</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <name>confirm-dialog</name>
     <description>Confirm Dialog is an easy to use web component to ask the user to confirm a choice. Based on famous
         MessageBox Addon
