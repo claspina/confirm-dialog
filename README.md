@@ -1,6 +1,6 @@
-# Game Card
+# Confirm Dialog
 
-Vaadin 10 Java integration of https://github.com/vpusher/game-card
+Confirm Dialog is an easy to use web component to ask the user to confirm a choice. Based on famous [MessageBox](https://vaadin.com/directory/component/messagebox) Addon
 
 ## Development instructions
 
@@ -10,5 +10,3 @@ mvn jetty:run
 ```
 
 This deploys demo at http://localhost:8080
-
-
