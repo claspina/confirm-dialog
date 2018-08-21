@@ -32,7 +32,8 @@ public class DemoView extends Div {
                                 .createInfo()
                                 .withCaption("Information")
                                 .withMessage("Data " + data + " send correctly!!!")
-                                .withCancelButton(ButtonOption.caption("Close"));
+                                .withCancelButton(ButtonOption.caption("Close"))
+                                .open();
 
                     }, ButtonOption.focus(), ButtonOption.caption("Confirm Send Data"))
                     .withCancelButton(ButtonOption.caption("Cancel"))
