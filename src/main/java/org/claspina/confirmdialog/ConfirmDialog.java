@@ -6,6 +6,7 @@ import com.vaadin.flow.component.dialog.Dialog;
 import com.vaadin.flow.component.html.H4;
 import com.vaadin.flow.component.html.H5;
 import com.vaadin.flow.component.icon.Icon;
+import com.vaadin.flow.component.icon.VaadinIcon;
 import com.vaadin.flow.component.orderedlayout.BoxSizing;
 import com.vaadin.flow.component.orderedlayout.FlexComponent;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
@@ -594,7 +595,8 @@ public class ConfirmDialog extends Dialog {
             }
         }
         if (BUTTON_DEFAULT_ICONS_VISIBLE) {
-            button.setIcon(new Icon(BUTTON_DEFAULT_ICON_FACTORY.getIcon(buttonType)));
+            final VaadinIcon icon = BUTTON_DEFAULT_ICON_FACTORY.getIcon(buttonType);
+            button.setIcon(icon == null ? null : icon.create());
         }
         return withButton(button, options);
     }
