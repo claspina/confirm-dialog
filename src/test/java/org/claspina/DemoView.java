@@ -31,7 +31,7 @@ public class DemoView extends Div {
                         ConfirmDialog
                                 .createInfo()
                                 .withCaption("Information")
-                                .withMessage("Data " + data + " send correctly!!!")
+                                .withMessage("Data '" + data + "' send correctly!!!")
                                 .withCancelButton(ButtonOption.caption("Close"))
                                 .open();
 
